@@ -1,0 +1,101 @@
+nav ul li
+{
+    list-style-type:none;
+    background-color:rgb(58, 58, 59);
+    display:inline-block;
+}
+nav ul li a
+{
+    color:white;
+    text-decoration:none;
+
+}
+nav ul li
+{
+    font-family:impact, fantasy;
+    display: inline-block;
+    text-decoration:none;
+    padding:4px 10px;
+    margin:4px;
+    border-radius:3px;
+            transform: skewX(-10deg);
+         -o-transform: skewX(-10deg);
+       -moz-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    background-color:rgb(43, 108, 188);
+}
+
+nav ul li:hover
+{
+    background-color:grey; 
+}
+
+ul#nav li a span 
+{
+    display: inline-block;
+            transform: skewX(10deg);
+         -o-transform: skewX(10deg);
+       -moz-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+}
+
+header
+{
+    background-color:rgb(58, 58, 59);
+    font-family:impact, fantasy; 
+}
+
+#active 
+{
+    background-color:#959090;
+}
+
+footer
+{
+    background-color:darkgray;
+    width:100%;
+    position:fixed;
+    margin:0;
+    padding:0;
+    bottom:0;
+    font-weight:50;
+    font-family:impact, fantasy;
+}
+
+footer p
+{
+    
+    color:white;
+    text-align: center;
+}
+
+body
+{
+    font-family:sans-serif;
+    background-color:grey;
+}
+
+h1,h2,p
+{
+    color:white;
+}
+
+            
+.news_spots 
+{
+    text-align:justify;
+    background-color: darkgray;
+    margin-left:10px;
+    margin-right:450px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.news_picture
+{
+   
+}
+
+
+
+
