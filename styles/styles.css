@@ -73,6 +73,7 @@ body
 {
     font-family:sans-serif;
     background-color:grey;
+    margin-bottom:100px;
 }
 
 h1,h2,p
@@ -80,22 +81,87 @@ h1,h2,p
     color:white;
 }
 
-            
-.news_spots 
-{
+.newsBox{
+    background-color:darkgrey;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:70%;
+    margin-bottom:1%;
+}
+
+.useful_links {
+    display:inline-block;
+    width:20%;
+    position:absolute;
+    left:75%;
+    height:70%;
+    background-color:darkgrey;
+    text-decoration:none;
+}
+
+.recentLinks{
+    position:absolute;
+    left:2%;
+    background-color: darkgrey;
+    display:inline-block;
+    width:30%;
+    height:70%;
     text-align:justify;
-    background-color: darkgray;
+    line-height:25px;
+}            
+
+.middleBox{
+    display:inline-block;
+    width:30%;
+    position:absolute;
+    left:35%;
+    height:70%;
+    background-color:darkgrey;
+    line-height:25px;
+}
+
+.rightBox{
+    display:inline-block;
+    width:30%;
+    position:absolute;
+    left:68%;
+    height:70%;
+    background-color:darkgrey;
+    line-height:25px;
+}
+
+.title{
     margin-left:10px;
-    margin-right:450px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-  
-.news_picture
-{
-   
 }
 
+.map{
+    position: absolute;
+    top: 320px;
+    left: 35px;
+}
 
+.newsImage{
+    border:5px solid black;
+    margin-right:10px;
+}
 
+.buttons{
+    background-color: rgb(58, 58, 59);
+}
 
+.videoBox{
+    background-color:darkgrey;
+    display:inline-block;
+    margin-left:1%;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:48%;
+    margin-bottom:1%;
+}
+
+.psyonixText{
+    padding-left:35px;
+    text-align:justify;
+}
